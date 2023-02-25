@@ -38,3 +38,4 @@
 [Atlassian - Git Hooks](https://www.atlassian.com/git/tutorials/git-hooks)  
 [DigitalOcean - How To Use Git Hooks To Automate Development and Deployment Tasks](https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks)  
 [Git hooks](https://githooks.com/)  
+[hostinger - How to Use Git Hooks?](https://www.hostinger.com/tutorials/how-to-use-git-hooks/)
