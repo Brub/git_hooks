@@ -28,3 +28,7 @@
 - How to install a hook?  
   - add a file with the correct name  
   - make the file executable `chmod +X <file-name>`  
+- Specify the language on the first line of your  (you can use any scripting language as long as it can be run as an executable)
+  - Bash `#!/bin/bash`  
+  - Shell `#!/bin/sh`  
+  - Python `#!/usr/bin python` 
