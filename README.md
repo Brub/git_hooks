@@ -33,6 +33,9 @@
   - Shell `#!/bin/sh`  
   - Python `#!/usr/bin python` 
 
+## Examples  
+TODO
+
 ## Resources
 [Medium - Get Started with Git Hooks](https://medium.com/@f3igao/get-started-with-git-hooks-5a489725c639)  
 [Atlassian - Git Hooks](https://www.atlassian.com/git/tutorials/git-hooks)  
