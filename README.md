@@ -1,2 +1,2 @@
-# git_hooks
+# Git hooks
 Info about git hooks
