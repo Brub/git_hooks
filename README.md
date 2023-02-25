@@ -33,6 +33,11 @@
   - Shell `#!/bin/sh`  
   - Python `#!/usr/bin python` 
 
+## Hook pass / fail
+In the hook you can check data and you can define if the hook pass or fail. This can be specified by the exit argument:  
+- pass = `exit 0`
+- fail = `exit 1`
+
 ## Examples  
 TODO
 
