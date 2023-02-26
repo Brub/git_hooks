@@ -41,7 +41,7 @@ In the hook you can check data and you can define if the hook pass or fail. This
 ## Examples  
 ### pre-commit hook (python)
 
-This hook will print out all modified files.
+This hook will print out all modified files when doing a commit.
 
 ```python  
 #!/usr/bin/env python
