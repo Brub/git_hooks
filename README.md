@@ -39,7 +39,26 @@ In the hook you can check data and you can define if the hook pass or fail. This
 - fail = `exit 1`
 
 ## Examples  
-TODO
+### pre-commit hook (python)
+
+This hook will print out all modified files.
+
+```python  
+#!/usr/bin/env python
+import sys, os
+
+staged_files = os.popen('git diff --cached --name-only --diff-filter=ACM')
+
+
+# print all the modified files  
+print("Mofified files:")
+print("---------------")
+for file in staged_files:
+    print(f"- {file}")
+
+sys.exit(0)  # continue the commit
+
+```
 
 ## Resources
 [Medium - Get Started with Git Hooks](https://medium.com/@f3igao/get-started-with-git-hooks-5a489725c639)  
